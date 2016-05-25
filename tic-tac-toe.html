@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+td {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+</style>
+<body>
+<center>
+	<h1>Tic-Tac-Toe</h1>
+	<h2>First player must play X</h2>
+
+	<table id="myTable">
+	  <tr>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	  </tr>
+	  <tr>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	  </tr>
+	  <tr>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	    <td onclick="play(this.parentNode.rowIndex, this.cellIndex)"> </td>
+	  </tr>
+	</table>
+
+	<h1 id="status"></h1>
+</center>
+<script src = "tic-tac-toe.js">
+</script>
+</body>
+</html> 
